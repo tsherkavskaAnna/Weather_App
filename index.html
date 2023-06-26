@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <title>Weather app</title>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <input type="text" autocomplete="off" class="input-box" 
+            placeholder="Search you city meteo">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">City</div>
+                <div class="date">Sunday 13 July 2023</div>
+            </section>
+            <div class="current">
+                <div class="temp">20<span class="celsium">°c</span></div>
+                <div class="weather">Sunny</div>
+                <div class="maxMin">23°c / 29°c </div>
+            </div>
+        </main>
+    </div>
     <script type="module" src="./script.js"></script>
 </body>
 </html>
