@@ -1,0 +1,11 @@
+{
+  "name": "Weather_App",
+  "version": "1.0.0",
+  "main": "script.js",
+  "repository": "https://github.com/tsherkavskaAnna/Weather_App.git",
+  "author": "annatsherkavska <katotoka1985@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
